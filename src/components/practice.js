@@ -1,10 +1,29 @@
 import React from 'react';
 
-function MyInfo() {
+function Todos() {
     return(
-        <div>
-            <input type="checkbox"/>
+        <div className="items">
+            <ul>
+            <li><input type="checkbox"/>
             <p>placeholder</p>
+            </li>
+
+            <li><input type="checkbox"/>
+            <p>placeholder</p>
+            </li>
+
+            <li><input type="checkbox"/>
+            <p>placeholder</p>
+            </li>
+
+            <li><input type="checkbox"/>
+            <p>placeholder</p>
+            </li>
+
+            
+            </ul>
+
+          
             
         </div>
       
@@ -12,4 +31,4 @@ function MyInfo() {
 
         )
 }
-export default MyInfo;
+export default Todos;

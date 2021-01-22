@@ -1,12 +1,12 @@
-import MyInfo from './components/practice'
+import Todos from './components/practice'
 import './App.css'
-import TodaysDate from './components/date'
+//import TodaysDate from './components/date'
 function App() {
 
-  return <div>
+  return <div className="container">
     
-      <MyInfo/>
-      <TodaysDate/>
+      <Todos/>
+     
       
     
   </div>
