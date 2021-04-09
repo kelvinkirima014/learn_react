@@ -1,16 +1,19 @@
-import Todos from './components/practice'
+
+import Ratings from './components/Ratings'
 import './App.css'
-//import TodaysDate from './components/date'
-function App() {
 
-  return <div className="container">
-    
-      <Todos/>
-     
-      
-    
-  </div>
 
+const App = () => {
+ return (
+   <>
+   <Ratings rating = '1'/>
+   <Ratings rating = '2'/>
+   <Ratings rating = '3'/>
+   <Ratings rating = '4'/>
+   <Ratings rating = '5'/>
+
+   </>
+ )
 }
 
 export default App;
