@@ -1,18 +1,18 @@
 
-import Ratings from './components/Ratings'
-import './App.css'
+import Products from './Products'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import UserForm from './UserForm'
 
 
 const App = () => {
  return (
-   <>
-   <Ratings rating = '1'/>
-   <Ratings rating = '2'/>
-   <Ratings rating = '3'/>
-   <Ratings rating = '4'/>
-   <Ratings rating = '5'/>
+   <div>
+   
+   <Products />
+   < UserForm />
 
-   </>
+
+   </div>
  )
 }
 
