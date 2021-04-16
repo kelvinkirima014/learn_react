@@ -9,7 +9,7 @@ const UserForm = () => {
     const [passwordError, setPasswordError] = useState ('')
     const handleSubmit = event => {
         event.preventDefault()
-        var emailValid = false;
+        let emailValid = false;
         if(email.length === 0){
         setEmailError("Email is required");
         } 
@@ -26,7 +26,7 @@ const UserForm = () => {
         if(emailValid){ 
         alert('Email: ' + email + '\nPassword: ' + password);
         }
-        var passwordValid = false;
+        let passwordValid = false;
             if(password.length === 0){
             setPasswordError("Password is required");
             } 
